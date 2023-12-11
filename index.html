@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="block">
+        <div class="container">
+          <div class="block-inputs">
+            <div class="block-title">
+              <p>DAY</p>
+              <input required  data-day placeholder="DD" />
+              <p class = 'days hide'>Error Day</p>
+            </div>
+            <div class="block-title">
+              <p>MONTH</p>
+              <input data-month required placeholder="MMM" />
+              <p class = 'months hide'>Error Month</p>
+            </div>
+            <div class="block-title">
+              <p>YEAR</p>
+              <input data-year required placeholder="YYYY" />
+              <p class = 'years hide'>Error Year</p>
+            </div>
+          </div>
+          <div class="block-btnbord">
+            <button class="btn">
+              <svg
+                width="64px"
+                height="64px"
+                viewBox="-7.44 -7.44 38.88 38.88"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M12 6V18M12 18L7 13M12 18L17 13"
+                    stroke="#ffffff"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </g>
+              </svg>
+            </button>
+          </div>
+          <div class="block-time">
+            <div class="block-age">
+              <p class = 'year'>--</p>
+              <p class = 'month'>--</p>
+              <p class = 'day'>--</p>
+            </div>
+            <div class="block-name-age">
+              <p>years</p>
+              <p>months</p>
+              <p>days</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+  <script src = 'js/main.js'></script>
+</body>
+</html>
